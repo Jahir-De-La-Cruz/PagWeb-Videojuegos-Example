@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h1>Tienda de Videojuegos</h1>
+            <img src="img/logo.jpg" alt="Logo Negocio">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="#" class="btn-login"><i class="fa-solid fa-user"></i> Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section__one">
+            <div class="section--1">
+                <img src="img/logo.jpg" alt="Logo Negocio">
+            </div>
+            <div class="section--2">
+                <h2>Quienes Somos?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque repudiandae voluptatem omnis explicabo ipsam magnam corrupti, ratione quibusdam tenetur reiciendis iste neque delectus! Quisquam voluptatum eum officia, pariatur quibusdam aut voluptas quod, est perferendis saepe maxime quo in. Eligendi quidem autem quod laboriosam sunt. Numquam voluptatum vitae minus asperiores rerum?</p>
+                <a href="#" class="btn-info">Más Información</a>
+            </div>
+        </div>
+        <div class="section__two">
+            <h2>Mira Nuestros Productos</h2>
+            <div class="section__container-cards">
+                <div class="section__container-card">
+                    <h3>GTA 5</h3>
+                    <img src="img/productos/producto-1.jpg" alt="Imagen del Producto">
+                    <p>Precio: $499.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+                <div class="section__container-card">
+                    <h3>Red Dead Redemption II</h3>
+                    <img src="img/productos/producto-2.jpg" alt="Imagen del Producto">
+                    <p>Precio: $343.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+                <div class="section__container-card">
+                    <h3>God Of War Ragnarok</h3>
+                    <img src="img/productos/producto-3.jpg" alt="Imagen del Producto">
+                    <p>Precio: $799.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+                <div class="section__container-card">
+                    <h3>The Legend Of Zelda: Tears Of The Kingdom</h3>
+                    <img src="img/productos/producto-4.jpg" alt="Imagen del Producto">
+                    <p>Precio: $1,139.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+                <div class="section__container-card">
+                    <h3>Star Wars Jedi Survivor</h3>
+                    <img src="img/productos/producto-5.jpg" alt="Imagen del Producto">
+                    <p>Precio: $1,049.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+                <div class="section__container-card">
+                    <h3>Spider-man - playstation 4</h3>
+                    <img src="img/productos/producto-6.jpg" alt="Imagen del Producto">
+                    <p>Precio: $1,082.00MXN</p>
+                    <button>Comprar Producto</button>
+                </div>
+            </div>
+        </div>
+        <div class="section__three" id="contacto">
+            <div class="section-1">
+                <h2>¿Te gustaria formar parte de nuestro equipo?</h2>
+                <p>Llena correctamente este formulario</p>
+            </div>
+            <div class="section-2">
+                <form action="" method="POST">
+                    <div class="form__group">
+                        <label for="">Nombre</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div class="form__group">
+                        <label for="">Apellido</label>
+                        <input type="text" name="apellido">
+                    </div>
+                    <div class="form__group">
+                        <label for="">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="form__group">
+                        <label for="">Telefono</label>
+                        <input type="number" name="telefono">
+                    </div>
+                    <div class="form__group">
+                        <label for="">¿Porque quieres formar parte?</label>
+                        <textarea name="descripcion" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form__group">
+                        <button type="submit">Enviar Solicitud</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-1">
+            <h2>Tienda de Videojuegos</h2>
+        </div>
+        <div class="footer-2">
+            <ul>
+                <li><a href="#">Terminos y Condiciones</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Más Información</a></li>
+            </ul>
+        </div>
+        <div class="footer-3">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; Jahir De La Cruz 2024 | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
